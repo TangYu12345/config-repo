@@ -7,6 +7,11 @@ spring:
     url: jdbc:mysql://39.106.114.18:3306/springcloud_sell?allowMultiQueries=true&characterEncoding=UTF-8&useSSL=false&serverTimezone=UTC
     username: root
     password: 123456
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
   env:
     test3
   girl:
