@@ -12,7 +12,7 @@ spring:
     port: 5672
     username: guest
     password: guest
-  rdeis：
+  redis：
     host: localhost
     port: 6379
   env:
